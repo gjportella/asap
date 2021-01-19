@@ -1,2 +1,2 @@
-# asap
-Accurate Spot Analysis Prediction (ASAP) Framework
+# ASAP
+Accurate Spot Analysis and Prediction (ASAP) Framework
