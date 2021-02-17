@@ -1,0 +1,12 @@
+Experiment: lr-linpack
+Provider: Amazon
+Regression equation:
+Price = (0.115857302525952) + (0.008601768016273229) * GFLOPS
+Occurrences (n): 5
+Parameters (k): 1
+RSquare (R2): 0.8106943917478053
+Confidence interval of coefficients θ (α = 0.1):
+θ0 = [0.021277578602406907;0.21043702644949708]
+θ1 = [0.004529258605639201;0.012674277426907257]
+F-Test (table reference value, α = 0.1): 5.53832
+F-Test (calculated value): 12.847391039801487

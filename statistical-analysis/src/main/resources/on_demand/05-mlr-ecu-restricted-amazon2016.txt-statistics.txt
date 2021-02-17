@@ -1,0 +1,14 @@
+Experiment: mlr-ecu-restricted
+Provider: Amazon
+Regression equation:
+Price = (0.024893176707222055) + (0.06932519965535006) * Virtual Cores + (0.003322509703797147) * Memory + (-0.0074214396699337085) * ECU
+Occurrences (n): 19
+Parameters (k): 3
+RSquare (R2): 0.9980319535709559
+Confidence interval of coefficients θ (α = 0.1):
+θ0 = [0.0071707597999201254;0.04261559361452398]
+θ1 = [0.04677224458777176;0.09187815472292835]
+θ2 = [0.0020116626118350483;0.004633356795759245]
+θ3 = [-0.013213945480262758;-0.00162893385960466]
+F-Test (table reference value, α = 0.1): 2.48979
+F-Test (calculated value): 2535.5904689091094

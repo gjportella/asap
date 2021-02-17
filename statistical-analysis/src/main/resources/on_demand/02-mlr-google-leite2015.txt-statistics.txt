@@ -1,0 +1,13 @@
+Experiment: mlr
+Provider: Google
+Regression equation:
+Price = (-0.006003152108988855) + (0.04049257849777358) * Virtual Cores + (0.006819079375545119) * Memory
+Occurrences (n): 15
+Parameters (k): 2
+RSquare (R2): 0.9950051992507707
+Confidence interval of coefficients θ (α = 0.1):
+θ0 = [-0.02616467680499078;0.014158372587013072]
+θ1 = [0.03687960108815288;0.04410555590739428]
+θ2 = [0.006113577487671284;0.007524581263418954]
+F-Test (table reference value, α = 0.1): 2.8068
+F-Test (calculated value): 1195.2491190816331

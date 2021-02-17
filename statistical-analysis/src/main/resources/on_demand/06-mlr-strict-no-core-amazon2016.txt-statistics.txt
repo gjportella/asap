@@ -1,0 +1,13 @@
+Experiment: mlr-strict-no-core
+Provider: Amazon
+Regression equation:
+ln(Price) = (-3.735218765048163) + (0.004005357547737349) * Memory + (0.8424746500819174) * ln(ECU)
+Occurrences (n): 19
+Parameters (k): 2
+RSquare (R2): 0.9830407137808025
+Confidence interval of coefficients θ (α = 0.1):
+θ0 = [-3.9416430161037534;-3.528794513992573]
+θ1 = [0.0016783504113846441;0.006332364684090054]
+θ2 = [0.7639973699459357;0.920951930217899]
+F-Test (table reference value, α = 0.1): 2.66817
+F-Test (calculated value): 463.71796599223427

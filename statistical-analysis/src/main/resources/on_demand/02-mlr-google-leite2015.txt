@@ -1,0 +1,16 @@
+Instance Type	Price	Virtual Cores	Memory
+n1-highcpu-2	0.088	2	1.8
+n1-highcpu-4	0.176	4	3.6
+n1-highcpu-8	0.352	8	7.2
+n1-highcpu-16	0.704	16	14.4
+n1-standard-1	0.07	1	3.75
+n1-standard-2	0.14	2	7.5
+n1-standard-4	0.28	4	15
+n1-standard-8	0.56	8	30
+n1-standard-16	1.12	16	60
+n1-highmem-2	0.164	2	13
+n1-highmem-4	0.328	4	26
+n1-highmem-8	0.656	8	52
+n1-highmem-16	1.312	16	104
+f1-micro	0.013	1	0.6
+g1-small	0.035	1	1.7

@@ -1,0 +1,6 @@
+Instance Type	Price	GFLOPS
+m1.small	0.044	1.96
+m1.large	0.175	7.15
+m1.xlarge	0.35	11.38
+c1.medium	0.13	3.91
+c1.xlarge	0.52	49.97

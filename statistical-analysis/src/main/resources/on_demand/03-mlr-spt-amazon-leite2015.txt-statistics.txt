@@ -1,0 +1,13 @@
+Experiment: mlr-spt
+Provider: Amazon
+Regression equation:
+Price = (0.5609011569347561) + (0.0024520859916931405) * Virtual Cores + (0.01923735031214639) * Memory
+Occurrences (n): 6
+Parameters (k): 2
+RSquare (R2): 0.9441088258291521
+Confidence interval of coefficients θ (α = 0.1):
+θ0 = [-0.15009652858643552;1.2718988424559476]
+θ1 = [-0.04440258092886712;0.04930675291225339]
+θ2 = [0.012884752494877805;0.025589948129414973]
+F-Test (table reference value, α = 0.1): 5.46238
+F-Test (calculated value): 25.337868809390315

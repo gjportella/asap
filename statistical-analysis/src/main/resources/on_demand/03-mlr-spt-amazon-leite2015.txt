@@ -1,0 +1,7 @@
+Instance Type	Price	Virtual Cores	Memory
+Cluster A	1.84	32	60.25
+Cluster B	4.985	32	244
+Cluster C	3.5025	16	119.5
+Cluster D	2.095625	12	62.6
+Cluster E	0.29896875	4.34375	10.21296875
+Cluster F	1.0114375	11	28.7125
