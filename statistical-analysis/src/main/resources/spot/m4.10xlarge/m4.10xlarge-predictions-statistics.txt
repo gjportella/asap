@@ -1,0 +1,43 @@
+Outlier analysis
+Occurences	65944
+Outliers removed	0
+Price mean with outliers	0.0
+Price mean without outliers	0.0
+Linear Regression
+price = (-35.57334899257475) + (2.4396122767459987E-11) * date
+
+Statistical data
+TotalSumSquares (SST)	2441.873565385311
+SumSquaredErrors (SSE)	2257.647414142779
+RSquare (R2)	0.07544459052017398
+MeanSquareError (MSE)	0.03423686594496343
+Significance	0.0
+
+Confidence interval of coefficients
+Intercept	-35.57334899257475
+InterceptStdErr	0.49124133903750355
+Slope	2.4396122767459987E-11
+SlopeStdErr	3.325769696147466E-13
+Intercept confidence interval	-36.54600684386901	-34.60069114128049
+Slope confidence interval	2.3737620367622787E-11	2.5054625167297186E-11
+
+F-test
+Calculated value	5380.929187229927
+Table value (alpha=0.001)	10.82756617
+Table value (alpha=0.010)	6.635
+Table value (alpha=0.025)	5.0239
+Table value (alpha=0.050)	3.8415
+Table value (alpha=0.100)	2.70554
+
+----------------------------------------------------------------------------------------------------
+
+Regression for instance [instance_type] on [month], [year]:
+Price = (-35.57334899257475) + (2.4396122767459987E-11) * Date
+R2 = 0.07544459052017398, n = 65944, outliers = 0
+Confidence interval of coefficients θ (α = 0.05):
+θ0 = [-36.54600684386901;-34.60069114128049]
+θ1 = [2.3737620367622787E-11;2.5054625167297186E-11]
+F-Test (table reference value, α = 0.001) = 10.82756617
+F-Test (calculated value) = 5380.929187229927
+
+----------------------------------------------------------------------------------------------------
