@@ -1,0 +1,20 @@
+reset
+set title "c3.8xlarge"
+set xlabel "Date (dd/mm)"
+set xdata time
+set timefmt "%H:%M:%S %d/%m/%Y"
+set xrange ["00:00:00 08/09/2016":"23:59:59 30/11/2016"]
+set format x "%d/%m"
+set ylabel "Price (USD/hour)"
+set autoscale y
+set ytics
+set key left top box
+set grid
+set datafile separator ";"
+set terminal png size 1300,650
+cd 'C:\Development\Workspaces\doutorado\statistical-analysis\src\main\resources\spot\c3.8xlarge\'
+set output "c3.8xlarge.2016-append-09_10_11.txt-scatterplot.txt-gnuplot-scatter-plot.png"
+plot "c3.8xlarge.2016-append-09_10_11.txt-scatterplot.txt-gnuplot-observed.txt" using 1:2 lt 1 lc rgb "#C0C0C0" title 'observed', \
+     "c3.8xlarge.2016-append-09_10_11.txt-scatterplot.txt-gnuplot-estimated.txt" using 1:2 with lines lw 2 lt 1 lc rgb "#000000" title 'estimated', \
+     "c3.8xlarge.2016-append-09_10_11.txt-scatterplot.txt-gnuplot-upper-ci.txt" using 1:2 with lines lw 2 lt 1 lc rgb "#777777" title '95% CI', \
+     "c3.8xlarge.2016-append-09_10_11.txt-scatterplot.txt-gnuplot-lower-ci.txt" using 1:2 with lines lw 2 lt 1 lc rgb "#777777" notitle
