@@ -1,0 +1,6 @@
+Availability Analysis
+Description	Overestimating Metric	Runtime (s)	Availability (%)	Cost ($)	Price Range ($/hour)
+Total runtime	-	2678072.0	100.0%	112.240277	[0.0678,0.84]
+No overstimating	-	2410670.0	90.01513%	72.814776	[0.317371,0.35745]
+MSE overstimating	0.050624	2485761.0	92.81905%	80.11967	[0.367995,0.408075]
+MeanPE overstimating	0.017238	2434812.0	90.9166%	75.046278	[0.334609,0.374689]
