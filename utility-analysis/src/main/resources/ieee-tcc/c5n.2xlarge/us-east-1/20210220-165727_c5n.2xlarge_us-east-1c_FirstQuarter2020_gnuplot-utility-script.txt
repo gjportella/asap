@@ -1,0 +1,17 @@
+reset
+set title "c5n.2xlarge"
+set xlabel "Date (dd/mm)"
+set xdata time
+set timefmt "%H:%M:%S %d/%m/%Y"
+set xrange ["00:00:00 31/12/2019":"23:59:59 31/03/2020"]
+set format x "%d/%m"
+set ylabel "Utility"
+set autoscale y
+set ytics
+set key left bottom box
+set grid
+set datafile separator ";"
+set terminal png size 1920,1080
+cd 'C:\Development\Workspaces\doutorado\utility-analysis\src\main\resources\ieee-tcc\c5n.2xlarge\us-east-1'
+set output "20210220-165727_c5n.2xlarge_us-east-1c_FirstQuarter2020_gnuplot-utility-plot.png"
+plot "20210220-165727_c5n.2xlarge_us-east-1c_FirstQuarter2020_gnuplot-estimated-data.txt" using 1:6 axes x1y1 with lines lw 1 lt 1 lc rgb "#00FF00" title 'Utility'

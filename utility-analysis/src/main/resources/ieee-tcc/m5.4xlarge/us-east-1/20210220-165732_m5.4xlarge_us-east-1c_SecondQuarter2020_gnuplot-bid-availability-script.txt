@@ -1,0 +1,23 @@
+reset
+set title "m5.4xlarge"
+set xlabel "Date (dd/mm)"
+set xdata time
+set timefmt "%H:%M:%S %d/%m/%Y"
+set xrange ["00:00:00 31/03/2020":"23:59:59 30/06/2020"]
+set format x "%d/%m"
+set ylabel "Price (USD/hour)"
+set autoscale y
+set ytics
+set y2label "Availability (%)"
+set y2range [0.0:1.0]
+set y2tics
+set key left top box
+set grid
+set datafile separator ";"
+set terminal png size 1920,1080
+cd 'C:\Development\Workspaces\doutorado\utility-analysis\src\main\resources\ieee-tcc\m5.4xlarge\us-east-1'
+set output "20210220-165732_m5.4xlarge_us-east-1c_SecondQuarter2020_gnuplot-bid-availability-plot.png"
+plot "20210220-165732_m5.4xlarge_us-east-1c_SecondQuarter2020_gnuplot-estimated-data.txt" using 1:3 axes x1y1 lt 1 lc rgb "#C0C0C0" title 'Observed', \
+     0.768 axes x1y1 lt 1 lc rgb "#000000" title 'On demand', \
+     "20210220-165732_m5.4xlarge_us-east-1c_SecondQuarter2020_gnuplot-estimated-data.txt" using 1:4 axes x1y1 with lines lw 1 lt 1 lc rgb "#0000FF" title 'Bid', \
+     "20210220-165732_m5.4xlarge_us-east-1c_SecondQuarter2020_gnuplot-estimated-data.txt" using 1:5 axes x1y2 with lines lw 1 lt 1 lc rgb "#FF0000" title 'Availability'

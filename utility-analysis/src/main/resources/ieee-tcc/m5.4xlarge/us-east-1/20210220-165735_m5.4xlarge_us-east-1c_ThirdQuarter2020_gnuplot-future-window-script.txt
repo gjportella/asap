@@ -1,0 +1,26 @@
+reset
+set title "m5.4xlarge from 30/06/2020 to 30/09/2020"
+set xlabel "X: Date (dd/mm)\n"
+set xdata time
+set timefmt "%H:%M:%S %d/%m/%Y"
+set xrange ["00:00:00 30/06/2020":"23:59:59 30/09/2020"]
+set xtics "00:00:00 30/06/2020",864000,"23:59:59 30/09/2020"
+set format x "%d/%m"
+set ylabel "Y1: Price (USD/hour)"
+set autoscale y
+set ytics
+set y2label "Y2: Time Window (hour)"
+set y2range [0:12]
+set y2tics
+set key out horiz bottom center box width -5
+set grid
+set datafile separator ";"
+set terminal png size 1920,1080
+cd 'C:\Development\Workspaces\doutorado\utility-analysis\src\main\resources\ieee-tcc\m5.4xlarge\us-east-1'
+set output "20210220-165735_m5.4xlarge_us-east-1c_ThirdQuarter2020_gnuplot-future-window-plot.png"
+plot "20210220-165735_m5.4xlarge_us-east-1c_ThirdQuarter2020_gnuplot-estimated-data.txt" using 1:3 axes x1y1 lw 2 lt 1 lc rgb "#909090" title 'Spot (Y1)', \
+     0.768 axes x1y1 lw 2 lt 1 lc rgb "#000000" title 'On demand (Y1)', \
+     "20210220-165735_m5.4xlarge_us-east-1c_ThirdQuarter2020_gnuplot-estimated-data.txt" using 1:4 axes x1y1 with lines lw 2 lt 1 lc rgb "#0000FF" title 'Bid (Y1)', \
+     "20210220-165735_m5.4xlarge_us-east-1c_ThirdQuarter2020_gnuplot-estimated-data.txt" using 1:10 axes x1y2 lw 2 lt 1 lc rgb "#009900" title 'Durability (Y2)', \
+     8.5 axes x1y2 lw 2 lt 1 lc rgb "#FF7777" title '5% Percentile (Y2)', \
+     9.5 axes x1y2 lw 2 lt 1 lc rgb "#990000" title '10% Percentile (Y2)'

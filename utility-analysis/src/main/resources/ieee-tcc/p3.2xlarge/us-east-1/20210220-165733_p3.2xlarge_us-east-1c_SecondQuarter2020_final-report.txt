@@ -1,0 +1,47 @@
+Start time;16:57:33 20/02/2021
+Instance type;p3.2xlarge
+Availability zone filter;us-east-1c
+Analysis label;SecondQuarter2020
+First point;09:37:20 02/04/2020
+Last point;15:27:26 30/06/2020
+Occurrences read;96
+Outliers removed;6
+Estimation accuracy (sigma);0.001
+Window size (ms);43200000
+Future window size (ms);43200000
+On demand Lower Limit Price Factor (eta);0.0
+On demand Upper Limit Price Factor (theta);1.0
+On demand Price;3.06
+Average price;0.91800000
+Price variance;0.00000000
+Price standard deviation;0.00000000
+Average bid;0.91800000
+Highest bid;0.91800000
+Last bid;0.91800000
+Average availability;1.00000000
+Average utility;1.46355731
+Average normalized utility;NaN
+(Fixed bid in future window) Average availability;1.00000000
+(Fixed bid in future window) Average bid;0.91800000
+(Fixed bid in future window) Average first chunk size (in ms);43200000.00000000
+(Fixed bid in future window) Average first chunk size (in %);1.00000000
+(Fixed bid in future window) Ocorrences with durability equal to future window;94
+(Hourly variable bid in future window) Average availability;1.00000000
+(Hourly variable bid in future window) Average bid;0.91800000
+(Hourly variable bid in future window) Average first chunk size (in ms);43200000.00000000
+(Hourly variable bid in future window) Average first chunk size (in %);1.00000000
+(Hourly variable bid in future window) Ocorrences with durability equal to future window;94
+(Variable bid in future window) Average availability;1.00000000
+(Variable bid in future window) Average bid;0.91800000
+(Variable bid in future window) Average first chunk size (in ms);43200000.00000000
+(Variable bid in future window) Average first chunk size (in %);1.00000000
+(Variable bid in future window) Ocorrences with durability equal to future window;94
+Average number of points in regressions;NaN
+Exponential regression best fits;0
+Logarithm regression best fits;0
+Polynomial regression best fits;0
+Power regression best fits;0
+Utility function runs;95
+Utility function average speedup (ms);1.7052631578947368
+Total speedup (ms);162
+End time;16:57:33 20/02/2021

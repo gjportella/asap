@@ -1,0 +1,47 @@
+Start time;16:57:34 20/02/2021
+Instance type;i3.8xlarge
+Availability zone filter;us-east-1c
+Analysis label;ThirdQuarter2020
+First point;19:42:07 30/06/2020
+Last point;19:53:51 30/09/2020
+Occurrences read;366
+Outliers removed;0
+Estimation accuracy (sigma);0.001
+Window size (ms);43200000
+Future window size (ms);43200000
+On demand Lower Limit Price Factor (eta);0.0
+On demand Upper Limit Price Factor (theta);1.0
+On demand Price;2.496
+Average price;1.00976648
+Price variance;0.00114873
+Price standard deviation;0.03389298
+Average bid;1.01144505
+Highest bid;1.05800000
+Last bid;0.96200000
+Average availability;1.00000000
+Average utility;1.21834436
+Average normalized utility;0.45011817
+(Fixed bid in future window) Average availability;0.84017559
+(Fixed bid in future window) Average bid;1.01171823
+(Fixed bid in future window) Average first chunk size (in ms);36191530.38674032
+(Fixed bid in future window) Average first chunk size (in %);0.83776691
+(Fixed bid in future window) Ocorrences with durability equal to future window;239
+(Hourly variable bid in future window) Average availability;0.89357991
+(Hourly variable bid in future window) Average bid;1.01173343
+(Hourly variable bid in future window) Average first chunk size (in ms);38598756.90607733
+(Hourly variable bid in future window) Average first chunk size (in %);0.89348974
+(Hourly variable bid in future window) Ocorrences with durability equal to future window;262
+(Variable bid in future window) Average availability;1.00000000
+(Variable bid in future window) Average bid;1.01174309
+(Variable bid in future window) Average first chunk size (in ms);43200000.00000000
+(Variable bid in future window) Average first chunk size (in %);1.00000000
+(Variable bid in future window) Ocorrences with durability equal to future window;362
+Average number of points in regressions;4.0
+Exponential regression best fits;0
+Logarithm regression best fits;0
+Polynomial regression best fits;3
+Power regression best fits;0
+Utility function runs;364
+Utility function average speedup (ms);0.9395604395604396
+Total speedup (ms);342
+End time;16:57:35 20/02/2021
