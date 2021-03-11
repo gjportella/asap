@@ -4,7 +4,7 @@ Accurate Spot Analysis and Prediction (ASAP) Framework
 Projects:
 
 * statistical-analysis: WSCAD 2016 [1] and CCPE 2017 [2] experimental results.
-* utility-analysis: IEEE-Cloud 2019 [3] and IEEE-TCC 2020 [4] experimental results.
+* utility-analysis: IEEE-Cloud 2019 [3] and [4] experimental results.
 
 References:
 
@@ -15,4 +15,4 @@ References:
 [3] Portella, Gustavo, Genaina N. Rodrigues, Eduardo Nakano and Alba C.M.A. Melo. Utility-based strategy for balanced cost and availability at the cloud spot market. 2019 IEEE 12th International Conference on Cloud Computing (CLOUD). 214–218, 2019. https://doi.org/10.1109/CLOUD.2019.00045.
 
 [4] Portella, Gustavo, Genaina N. Rodrigues, Eduardo Nakano, Azzedine Boukerche and Alba C.M.A. Melo. A statistical and neural network combined approach for the
-cloud spot market. Submitted to a prestigious journal. Manuscript received on October 6, 2020 and revised on February 4, 2021.
+cloud spot market. Submitted to a journal.
