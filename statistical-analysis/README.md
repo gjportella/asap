@@ -26,3 +26,4 @@ git clone https://github.com/gjportella/asap/statistical-analysis
 cd statistical-analysis
 mvn install
 ```
+4. 
