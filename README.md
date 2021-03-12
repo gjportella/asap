@@ -13,7 +13,7 @@ This repository has the following projects:
 
 Please see further details in the README file in each project.
 
-## References:
+## References
 
 \[1\] Portella, Gustavo, Genaina N. Rodrigues and Alba C.M.A. Melo. Análise de precificação de recursos utilizados em computação em nuvem. XVII Simpósio de Sistemas Computacionais de Alto Desempenho (WSCAD), Aracaju, SE, BRA, 2016. SBC. http://www.lbd.dcc.ufmg.br/colecoes/wscad/2016/017.pdf.
 
