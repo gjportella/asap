@@ -11,10 +11,10 @@ The installation prerequisites are as follows:
 
 ## Launch
 
-To launch the statistical analysis, please follow the steps below:
+To launch the statistical analysis, please follow the steps below (under Linux):
 
 1. Install Java 8 and Maven 3 in your development environment.
-2. Download this project repository or clone it using a Git client. If you choose to use a Git client under Linux, please run the following command:
+2. Download this project repository or clone it using a Git client. If you choose to use a Git client, please run the following command:
 
 ```aidl
 git clone https://github.com/gjportella/asap/statistical-analysis
