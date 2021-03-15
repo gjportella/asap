@@ -1,6 +1,6 @@
 # ASAP - Statistical Analysis
 
-Statistical analysis and experimental results of AWS/EC2 spot instances.
+AWS/EC2 on demand and spot pricing statistical analysis.
 
 ## Installation
 
@@ -34,21 +34,21 @@ mvn compile
 mvn test
 ```
 
-At this step, the test case will call the end point class br.unb.cic.boot.BootCCPEAnalysis, in which the statistical analyses referring to the historical price data of c3.8xlarge, g2.2xlarge, m4.10xlarge, r3.2xlarge and t1.micro spot instance types, during the months from September to November 2016, are performed.
+At this step, the test case will call the end point class [br.unb.cic.boot.BootCCPEAnalysis](https://github.com/gjportella/asap/blob/main/statistical-analysis/src/main/java/br/unb/cic/boot/BootCCPEAnalysis.java), in which the statistical analyses referring to the historical price data of c3.8xlarge, g2.2xlarge, m4.10xlarge, r3.2xlarge and t1.micro spot instance types, during the months from September to November 2016, are performed.
 
 ## Building a New Analysis
 
 To build a new custom analysis, you may use one of the following end point examples in package [br.unb.cic.boot](https://github.com/gjportella/asap/tree/main/statistical-analysis/src/main/java/br/unb/cic/boot), under the src/main/java path:
 
-* BootCCPEAnalysis.java: statistical analysis and experimental results detailed in CCPE 2017 (for more details, please click [here](https://github.com/gjportella/asap)).
-* BootOnDemandAnalysis.java: statistical analysis and experimental results detailed in WSCAD 2016 (for more details, please click [here](https://github.com/gjportella/asap)).
-* BootSpotAnalysis.java: monthly analysis of spot instance types from September to December 2016.
+* [BootCCPEAnalysis.java](https://github.com/gjportella/asap/blob/main/statistical-analysis/src/main/java/br/unb/cic/boot/BootCCPEAnalysis.java): statistical analysis and experimental results detailed in CCPE 2017 (for more details, please click [here](https://github.com/gjportella/asap)).
+* [BootOnDemandAnalysis.java](https://github.com/gjportella/asap/blob/main/statistical-analysis/src/main/java/br/unb/cic/boot/BootOnDemandAnalysis.java): statistical analysis and experimental results detailed in WSCAD 2016 (for more details, please click [here](https://github.com/gjportella/asap)).
+* [BootSpotAnalysis.java](https://github.com/gjportella/asap/blob/main/statistical-analysis/src/main/java/br/unb/cic/boot/BootSpotAnalysis.java): monthly analysis of spot instance types from September to December 2016.
 
 ## History Files
 
 The spot price variation history files are placed at [src/main/resources](https://github.com/gjportella/asap/tree/main/statistical-analysis/src/main/resources). You can get the history files using the ec2dsph command using AWS-CLI. For more information, please visit [describe-spot-price-history command reference](http://docs.aws.amazon.com/cli/latest/reference/ec2/describe-spot-price-history.html) and [AWS Command Line Interface](http://docs.aws.amazon.com/cli/latest/userguide/tutorial-ec2-ubuntu.html).
 
-## Output
+## Output Files
 
 In [src/main/resources](https://github.com/gjportella/asap/tree/main/statistical-analysis/src/main/resources) path you will also find the analysis output files (text reports, PNG images and gnuplot scripts). All files have a prefix defined by the instance type and/or period of analysis (e.g. t1.micro_2016-11, in which t1.micro refers to the instance type and 2016-11 refers to the periodo of November 2016).
 
