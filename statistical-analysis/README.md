@@ -46,7 +46,7 @@ To build a new custom analysis, you may use one of the following end point examp
 
 ## History Files
 
-The spot price variation history files are placed at [src/main/resources](https://github.com/gjportella/asap/tree/main/statistical-analysis/src/main/resources). You can get the history files using the ec2dsph command using AWS-CLI. For more information, please visit [describe-spot-price-history command reference](http://docs.aws.amazon.com/cli/latest/reference/ec2/describe-spot-price-history.html) and [AWS Command Line Interface](http://docs.aws.amazon.com/cli/latest/userguide/tutorial-ec2-ubuntu.html).
+The spot price variation history files are placed at [src/main/resources](https://github.com/gjportella/asap/tree/main/statistical-analysis/src/main/resources). You can get the history files using the ec2dsph command using AWS-CLI. For more information, please visit [describe-spot-price-history](http://docs.aws.amazon.com/cli/latest/reference/ec2/describe-spot-price-history.html) command reference and [AWS Command Line Interface](http://docs.aws.amazon.com/cli/latest/userguide/tutorial-ec2-ubuntu.html) documentation.
 
 ## Output Files
 
