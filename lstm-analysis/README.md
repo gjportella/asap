@@ -20,7 +20,7 @@ To launch the LSTM analysis, please follow the steps below (under Linux):
 git clone https://github.com/gjportella/asap
 ```
 
-3. Change to the ASAP - Statistical Analysis project path:
+3. Change to the ASAP - LSTM Analysis project path:
 ```
 cd asap/lstm-analysis
 ```
