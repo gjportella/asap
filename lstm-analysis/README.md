@@ -47,11 +47,11 @@ To build a new custom analysis, you may use one of the following end point examp
 
 ## History Files
 
-The spot price variation history files are placed at [src/main/resources/](https://github.com/gjportella/asap/tree/main/lstm-analysis/src/main/resources). You can get the history files using the ec2dsph command using AWS-CLI. For more information, please visit [describe-spot-price-history](http://docs.aws.amazon.com/cli/latest/reference/ec2/describe-spot-price-history.html) command reference and [AWS Command Line Interface](http://docs.aws.amazon.com/cli/latest/userguide/tutorial-ec2-ubuntu.html) documentation.
+The spot price variation history files are placed at [src/main/resources/](https://github.com/gjportella/asap/tree/main/lstm-analysis/src/main/resources). You can get the history files with the ec2dsph command using AWS-CLI. For more information, please visit [describe-spot-price-history](http://docs.aws.amazon.com/cli/latest/reference/ec2/describe-spot-price-history.html) command reference and [AWS Command Line Interface](http://docs.aws.amazon.com/cli/latest/userguide/tutorial-ec2-ubuntu.html) documentation.
 
 ## Output Files
 
-In [src/main/resources/](https://github.com/gjportella/asap/tree/main/lstm-analysis/src/main/resources) path you will also find the analysis output files (text reports and gnuplot scripts). All files have a prefix defined by the timestamp, LSTM configuration, instance type and availability zone (e.g. 20210125-162510-LSTM-A2H32E100L0.005T2-c5n.2xlarge-us-east-1c, in which 20210125-162510 is the timestamp, LSTM-A2H32E100L0.005T2 is the LSTM neural network configuration, c5n.2xlarge is the instance type and us-east-1c is the region/availability zone).
+In [src/main/resources/](https://github.com/gjportella/asap/tree/main/lstm-analysis/src/main/resources) path you will also find the analysis output files (text reports, data files and gnuplot script). All files have a prefix defined by a timestamp, LSTM configuration, instance type and availability zone (e.g. 20210125-162510-LSTM-A2H32E100L0.005T2-c5n.2xlarge-us-east-1c, in which 20210125-162510 is the timestamp, LSTM-A2H32E100L0.005T2 is the LSTM neural network configuration, c5n.2xlarge is the instance type and us-east-1c is the region/availability zone).
 
 The output files are:
 
