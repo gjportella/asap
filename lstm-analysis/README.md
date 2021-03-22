@@ -63,3 +63,7 @@ The output files are:
 * \[file prefix\]-gnuplot-testing-data.txt: testing data for gnuplot script.
 * \[file prefix\]-gnuplot-training-data.txt: training data for gnuplot script.
 * \[file prefix\]-gnuplot-script.txt: gnuplot script to generate the PNG image for the analysis period.
+
+## Network Architecture Layout
+
+There are three network architecture layouts available: basic, intermediate and sophisticated. The first one is composed of just one LSTM layer (type 1). The second is built on two fully connected LSTM layers (type 2). The third layout has two LSTM layers and one additional dense layer (type 3). These architecture layouts are shown in the following images.
