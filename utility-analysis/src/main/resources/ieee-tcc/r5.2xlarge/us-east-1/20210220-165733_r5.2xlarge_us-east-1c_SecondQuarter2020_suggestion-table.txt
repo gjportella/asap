@@ -1,7 +1,0 @@
-Wednesday;Now;49
-Tuesday;Now;53
-Monday;Now;56
-Sunday;Now;51
-Saturday;Now;43
-Thursday;Now;52
-Friday;Now;48
