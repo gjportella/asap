@@ -115,7 +115,7 @@ The most important hyperparameters to be configured and their suggested values a
 To set the hyperparameters, update the LSTM configuration object as follows:
 
 ```
-config.setGradientDescentUpdater(LSTMConfiguration.UPDATER_SGD);
+config.setGradientDescentUpdater(LSTMConfiguration.UPDATER_ADAM);
 config.setHiddenLayer1Nodes(16);
 config.setNumberOfEpochs(100);
 config.setLearningRate(0.005);
@@ -125,7 +125,7 @@ config.setLearningRate(0.005);
 
 Parameters that reffer to history files and path, as well as other specific parameters are:
 
-* Instance type (e.g. m5.2xlarge)
+* Instance type (e.g. c5n.2xlarge)
 * Availability zone filter (e.g. us-east-1c)
 * Training data proportion (e.g. 70% for training and 30% for testing/prediction)
 * Number of input values
@@ -134,12 +134,12 @@ Parameters that reffer to history files and path, as well as other specific para
 * Input CSV path (for the history files)
 * Input CSV file names (for the history files)
 * Regularization data (true or false)
-* Regularization timestep in hours (e.g. 4 hours)
+* Regularization timestep in hours (e.g. every 1 hour)
 
 To set the parameters, update the LSTM configuration object as follows:
 
 ```
-config.setInstanceType("m5.2xlarge");
+config.setInstanceType("c5n.2xlarge");
 config.setAvailabilityZoneFilter("us-east-1c");
 config.setTrainingDataProportion(0.7);
 config.setInputNodes(1);
@@ -148,12 +148,10 @@ config.setNumberOfFeatures(2);
 config.setInputCsvPath("src/main/resources/single-analysis/");
 config.setInputCsvFileNames(
 	new String[] {
-		"m5.2xlarge.2020-01.txt",
-		"m5.2xlarge.2020-02.txt",
-		"m5.2xlarge.2020-03.txt"
+		"c5n.2xlarge.2020-04.txt"
 	});
 config.setRegularizationData(true);
-config.setRegularizationTimestepInHours(4);
+config.setRegularizationTimestepInHours(1);
 ```
 
 ### Running the Customized Configuration
