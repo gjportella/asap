@@ -77,9 +77,10 @@ import br.unb.cic.laico.analysis.lstm.config.LSTMConfiguration;
 
 public class MyAnalysis {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 
 		LSTMConfiguration config = new LSTMConfiguration();
+		// configuration to be continued...
 
 	}
 }
@@ -89,6 +90,12 @@ public class MyAnalysis {
 
 There are three network architecture layouts available: basic, intermediate and sophisticated. The first one is composed of just one LSTM layer (type 1). The second is built on two fully connected LSTM layers (type 2). The third layout has two LSTM layers and one additional dense layer (type 3). These architecture layouts are shown in the following images.
 
-![Basic layout](../images/basic_layout.png?raw=true)
-![Intermediate layout](../images/intermediate_layout.png?raw=true)
-![Sophisticated layout](../images/sophisticated_layout.png?raw=true)
+[Basic layout](../images/basic_layout.png?raw=true)
+[Intermediate layout](../images/intermediate_layout.png?raw=true)
+[Sophisticated layout](../images/sophisticated_layout.png?raw=true)
+
+To set the architecture layout, update the type parameter in the LSTM configuration object:
+
+```
+config.setType(LSTMConfiguration.TYPE_2LAYERS_LSTM);
+```
