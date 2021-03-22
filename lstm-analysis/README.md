@@ -172,4 +172,4 @@ lstmAnalysis.doAnalysis(config);
 
 The generated gnuplot script file produces the image with training, testing and prediction data, as can be seen [here](../images/A2H16E100L0.005T1-c5n.2xlarge-us-east-1c-gnuplot-script.png?raw=true).
 
-For more other detailed examples, please refer to Section [Building a new Analysis](#building-a-new-analysis) in this documentation page.
+For other detailed examples, please refer to the [Building a new Analysis](#building-a-new-analysis) section in this documentation page.
