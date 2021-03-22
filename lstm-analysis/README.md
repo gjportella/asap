@@ -78,6 +78,7 @@ import br.unb.cic.laico.analysis.lstm.config.LSTMConfiguration;
 public class MyAnalysis {
 
 	public static void main(String[] args) throws Exception {
+		Locale.setDefault(Locale.ENGLISH);
 
 		LSTMConfiguration config = new LSTMConfiguration();
 		// configuration to be continued...
@@ -157,7 +158,14 @@ config.setRegularizationTimestepInHours(4);
 
 ### Running the Customized Configuration
 
-To run the analysis with the customized configuration, create a [LSTMBasedAnalysis](./src/main/java/br/unb/cic/laico/analysis/lstm/LSTMBasedAnalysis.java) object and call the "doAnalysis" method, passing the configuration as parameter:
+To run the analysis with the customized configuration, import [LSTMBasedAnalysis](./src/main/java/br/unb/cic/laico/analysis/lstm/LSTMBasedAnalysis.java) interface and [LSTMBasedAnalysisBuilder](./src/main/java/br/unb/cic/laico/analysis/lstm/LSTMBasedAnalysisBuilder.java) implementation class into your code:
+
+```
+import br.unb.cic.laico.analysis.lstm.LSTMBasedAnalysis;
+import br.unb.cic.laico.analysis.lstm.LSTMBasedAnalysisBuilder;
+```
+
+Then create a [LSTMBasedAnalysis](./src/main/java/br/unb/cic/laico/analysis/lstm/LSTMBasedAnalysis.java) object and call the "doAnalysis" method, passing the configuration as parameter, as follows:
 
 ```
 LSTMBasedAnalysis lstmAnalysis = new LSTMBasedAnalysisBuilder();
