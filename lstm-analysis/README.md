@@ -64,6 +64,31 @@ The output files are:
 * \[file prefix\]-gnuplot-training-data.txt: training data for gnuplot script.
 * \[file prefix\]-gnuplot-script.txt: gnuplot script to generate the PNG image for the analysis period.
 
-## Network Architecture Layout
+## LSTM Configuration
+
+The LSTM network configuration parameters are managed by the [LSTMConfiguration.java](./src/main/java/br/unb/cic/laico/analysis/lstm/config/LSTMConfiguration.java) class located in the [br.unb.cic.laico.analysis.lstm.config](./src/main/java/br/unb/cic/laico/analysis/lstm/config) package. These parameters include the definition of the network architecture layout, the hyperparameters (or learning parameters) and other specific parameters to handle, for example, the history file names and path.
+
+To use the configuration class, import the corresponding package/class and instantiate an object as follows:
+
+```
+package simple.analysis;
+
+import br.unb.cic.laico.analysis.lstm.config.LSTMConfiguration;
+
+public class MyAnalysis {
+
+	public static void main(String[] args) {
+
+		LSTMConfiguration config = new LSTMConfiguration();
+
+	}
+}
+```
+
+### Network Architecture Layout
 
 There are three network architecture layouts available: basic, intermediate and sophisticated. The first one is composed of just one LSTM layer (type 1). The second is built on two fully connected LSTM layers (type 2). The third layout has two LSTM layers and one additional dense layer (type 3). These architecture layouts are shown in the following images.
+
+![Basic layout](../images/basic_layout.png?raw=true)
+![Intermediate layout](../images/intermediate_layout.png?raw=true)
+![Sophisticated layout](../images/sophisticated_layout.png?raw=true)
