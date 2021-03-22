@@ -154,3 +154,14 @@ config.setInputCsvFileNames(
 config.setRegularizationData(true);
 config.setRegularizationTimestepInHours(4);
 ```
+
+### Running the Customized Configuration
+
+To run the analysis with the customized configuration, create a [LSTMBasedAnalysis](./src/main/java/br/unb/cic/laico/analysis/lstm/LSTMBasedAnalysis.java) object and call the "doAnalysis" method, passing the configuration as parameter:
+
+```
+LSTMBasedAnalysis lstmAnalysis = new LSTMBasedAnalysisBuilder();
+lstmAnalysis.doAnalysis(config);
+```
+
+For more other detailed examples, please refer to Section [Building a new Analysis](#building-a-new-analysis) in this documentation page.
