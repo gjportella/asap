@@ -1,0 +1,47 @@
+Start time;20:28:31 20/02/2021
+Instance type;g2.2xlarge
+Availability zone filter;us-east-1c
+Analysis label;SeptemberToNovember2016
+First point;04:28:51 03/09/2016
+Last point;23:22:52 30/11/2016
+Occurrences read;187018
+Outliers removed;414
+Estimation accuracy (sigma);0.01
+Window size (ms);43200000
+Future window size (ms);43200000
+On demand Lower Limit Price Factor (eta);0.0
+On demand Upper Limit Price Factor (theta);2.0
+On demand Price;0.65
+Average price;0.19752669
+Price variance;0.01806272
+Price standard deviation;0.13439763
+Average bid;0.33863937
+Highest bid;0.69000000
+Last bid;0.66000000
+Average availability;0.97683601
+Average utility;0.95371054
+Average normalized utility;0.67711771
+(Fixed bid in future window) Average availability;NaN
+(Fixed bid in future window) Average bid;NaN
+(Fixed bid in future window) Average first chunk size (in ms);NaN
+(Fixed bid in future window) Average first chunk size (in %);NaN
+(Fixed bid in future window) Ocorrences with durability equal to future window;0
+(Hourly variable bid in future window) Average availability;NaN
+(Hourly variable bid in future window) Average bid;NaN
+(Hourly variable bid in future window) Average first chunk size (in ms);NaN
+(Hourly variable bid in future window) Average first chunk size (in %);NaN
+(Hourly variable bid in future window) Ocorrences with durability equal to future window;0
+(Variable bid in future window) Average availability;NaN
+(Variable bid in future window) Average bid;NaN
+(Variable bid in future window) Average first chunk size (in ms);NaN
+(Variable bid in future window) Average first chunk size (in %);NaN
+(Variable bid in future window) Ocorrences with durability equal to future window;0
+Average number of points in regressions;1133.747598234493
+Exponential regression best fits;40
+Logarithm regression best fits;0
+Polynomial regression best fits;185964
+Power regression best fits;5
+Utility function runs;1488080
+Utility function average speedup (ms);1.5076716305574969
+Total speedup (ms);2243536
+End time;21:05:55 20/02/2021
