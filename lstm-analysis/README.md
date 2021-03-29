@@ -1,7 +1,7 @@
 # ASAP - LSTM Analysis
 
 AWS/EC2 spot pricing analysis using Long Short-Term Memory (LSTM) neural networks.
-The LSTM neural network implementation is based on the [Deep Learning for Java (DL4J)](https://deeplearning4j.org/) framework.
+The LSTM neural network framework uses the [Deep Learning for Java (DL4J)](https://deeplearning4j.org/) API.
 
 ## Installation
 
