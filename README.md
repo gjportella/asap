@@ -21,5 +21,4 @@ Please see further details in the README file in each project.
 
 \[3\] Portella, Gustavo, Genaina N. Rodrigues, Eduardo Nakano and Alba C.M.A. Melo. Utility-based strategy for balanced cost and availability at the cloud spot market. 2019 IEEE 12th International Conference on Cloud Computing (CLOUD). 214–218, 2019. https://doi.org/10.1109/CLOUD.2019.00045.
 
-\[4\] Portella, Gustavo, Genaina N. Rodrigues, Eduardo Nakano, Azzedine Boukerche and Alba C.M.A. Melo. A statistical and neural network combined approach for the
-cloud spot market. Submitted to a journal in October 2020.
+\[4\] Portella, Gustavo, Genaina N. Rodrigues, Eduardo Nakano, Azzedine Boukerche and Alba C.M.A. Melo. A Novel Statistical and Neural Network Combined Approach for the Cloud Spot Market. IEEE Transactions on Cloud Computing. 1-1, 2021. https://doi.org/10.1109/TCC.2021.3091936.
